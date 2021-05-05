@@ -20,16 +20,6 @@ VERSION = "1.2.2"
 REQUIRES = ["atrium >= 2.8.0", "python-dotenv >= 0.10.3"]
 
 setup(
-    name=NAME,
     version=VERSION,
-    description="Django Atrium",
-    author_email="",
-    url="https://github.com/lightningkite/django-atrium",
-    keywords=["MX", "MX API"],
     install_requires=REQUIRES,
-    packages=find_packages(),
-    include_package_data=True,
-    long_description="""\
-    The MX Atrium API supports over 48,000 data connections to thousands of financial institutions. It provides secure access to your users&#39; accounts and transactions with industry-leading cleansing, categorization, and classification.  Atrium is designed according to resource-oriented REST architecture and responds with JSON bodies and HTTP response codes.  Use Atrium&#39;s development environment, vestibule.mx.com, to quickly get up and running. The development environment limits are 100 users, 25 members per user, and access to the top 15 institutions. Contact MX to purchase production access.   # noqa: E501
-    """
 )
